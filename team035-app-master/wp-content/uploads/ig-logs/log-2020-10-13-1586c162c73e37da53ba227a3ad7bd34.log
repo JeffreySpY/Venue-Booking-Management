@@ -1,0 +1,10 @@
+2020-10-13T14:27:01+00:00 INFO Sync Users
+1) /home/u20s1035/dev_root/wp-admin/admin.php(259): do_action('email-subscribe...')
+2) /home/u20s1035/dev_root/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+3) /home/u20s1035/dev_root/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+4) /home/u20s1035/dev_root/wp-includes/class-wp-hook.php(287): Email_Subscribers_Admin->render_contacts('')
+5) /home/u20s1035/dev_root/wp-content/plugins/email-subscribers/lite/admin/class-email-subscribers-admin.php(380): ES_Contacts_Table->render()
+6) /home/u20s1035/dev_root/wp-content/plugins/email-subscribers/lite/includes/classes/class-es-contacts-table.php(196): ES_Contacts_Table->load_sync()
+7) /home/u20s1035/dev_root/wp-content/plugins/email-subscribers/lite/includes/classes/class-es-contacts-table.php(281): ES_Handle_Sync_Wp_User->prepare_sync_user()
+8) /home/u20s1035/dev_root/wp-content/plugins/email-subscribers/lite/includes/classes/class-es-handle-sync-wp-user.php(221): ES_Handle_Sync_Wp_User->sync_users_callback()
+

@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hotel-galaxy\n"
+"POT-Creation-Date: 2016-09-23 12:20+0530\n"
+"PO-Revision-Date: 2016-09-23 12:21+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: breadcrums.php:17 include/menu/default_menu_walker.php:25
+#: include/theme-functions/breadcrums.php:6
+msgid "Home"
+msgstr ""
+
+#: comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:8
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:8
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:14
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:17
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:20
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:44
+msgid "Logged in as "
+msgstr ""
+
+#: comments.php:44
+msgid " Log out?"
+msgstr ""
+
+#: comments.php:45
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:47
+msgid "Submit Now"
+msgstr ""
+
+#: comments.php:50
+msgid "Leave a Reply"
+msgstr ""
+
+#: include/customizer/footer-collout.php:3
+msgid "Footer Collout"
+msgstr ""
+
+#: include/customizer/footer-collout.php:18
+#: include/customizer/social-links.php:20
+msgid "This Section Link Open New Tab"
+msgstr ""
+
+#: include/customizer/footer-collout.php:37
+msgid "Icon 1"
+msgstr ""
+
+#: include/customizer/footer-collout.php:50
+msgid "Footer Collout Title 1"
+msgstr ""
+
+#: include/customizer/footer-collout.php:66
+msgid "Footer Collout Icon 1"
+msgstr ""
+
+#: include/customizer/footer-collout.php:67
+#: include/customizer/footer-collout.php:134
+#: include/customizer/footer-collout.php:201
+#: include/customizer/footer-collout.php:268
+msgid ""
+"<a href=\"http://fontawesome.bootstrapcheatsheets.com\">FontAwesome Icons</a>"
+msgstr ""
+
+#: include/customizer/footer-collout.php:83
+msgid "Footer Collout Link 1"
+msgstr ""
+
+#: include/customizer/footer-collout.php:104
+msgid "Icon 2"
+msgstr ""
+
+#: include/customizer/footer-collout.php:117
+msgid "Footer Collout Title 2"
+msgstr ""
+
+#: include/customizer/footer-collout.php:133
+msgid "Footer Collout Icon 2"
+msgstr ""
+
+#: include/customizer/footer-collout.php:150
+msgid "Footer Collout Link 2"
+msgstr ""
+
+#: include/customizer/footer-collout.php:171
+msgid "Icon 3"
+msgstr ""
+
+#: include/customizer/footer-collout.php:184
+msgid "Footer Collout Title 3"
+msgstr ""
+
+#: include/customizer/footer-collout.php:200
+msgid "Footer Collout Icon 3"
+msgstr ""
+
+#: include/customizer/footer-collout.php:217
+msgid "Footer Collout Link 3"
+msgstr ""
+
+#: include/customizer/footer-collout.php:238
+msgid "Icon 4"
+msgstr ""
+
+#: include/customizer/footer-collout.php:251
+msgid "Footer Collout Title 4"
+msgstr ""
+
+#: include/customizer/footer-collout.php:267
+msgid "Footer Collout Icon 4"
+msgstr ""
+
+#: include/customizer/footer-collout.php:284
+msgid "Footer Collout Link 4"
+msgstr ""
+
+#: include/customizer/footer-section.php:3
+msgid "Footer Options"
+msgstr ""
+
+#: include/customizer/footer-section.php:18
+msgid "This Section Link Open In New Tab"
+msgstr ""
+
+#: include/customizer/footer-section.php:39
+msgid "About Us Section"
+msgstr ""
+
+#: include/customizer/footer-section.php:51
+msgid "About Us Title"
+msgstr ""
+
+#: include/customizer/footer-section.php:66
+msgid "About Us Text"
+msgstr ""
+
+#: include/customizer/footer-section.php:86
+msgid "Follow Us Section"
+msgstr ""
+
+#: include/customizer/footer-section.php:98
+msgid "Follow Us Title"
+msgstr ""
+
+#: include/customizer/footer-section.php:119
+msgid "Post Section"
+msgstr ""
+
+#: include/customizer/footer-section.php:131
+msgid "Post Title"
+msgstr ""
+
+#: include/customizer/footer-section.php:145
+msgid "Show Post"
+msgstr ""
+
+#: include/customizer/footer-section.php:164
+msgid "Contact Us Section"
+msgstr ""
+
+#: include/customizer/footer-section.php:177
+msgid "Contact Title"
+msgstr ""
+
+#: include/customizer/footer-section.php:195
+#: include/customizer/genral-option.php:18
+msgid "Address"
+msgstr ""
+
+#: include/customizer/footer-section.php:210
+msgid "Phone No."
+msgstr ""
+
+#: include/customizer/footer-section.php:225
+msgid "Email Address."
+msgstr ""
+
+#: include/customizer/footer-section.php:244
+msgid "Copy Right Text"
+msgstr ""
+
+#: include/customizer/footer-section.php:255
+msgid "Copyright Text"
+msgstr ""
+
+#: include/customizer/footer-section.php:268
+msgid "Developed By"
+msgstr ""
+
+#: include/customizer/footer-section.php:281
+msgid "Developed By Text"
+msgstr ""
+
+#: include/customizer/footer-section.php:296
+msgid "Developed By Link"
+msgstr ""
+
+#: include/customizer/genral-option.php:4
+msgid "Genral Options"
+msgstr ""
+
+#: include/customizer/genral-option.php:33
+msgid "Reservation Line"
+msgstr ""
+
+#: include/customizer/genral-option.php:49
+msgid "Fevicon Icon"
+msgstr ""
+
+#: include/customizer/genral-option.php:66
+msgid "Logo"
+msgstr ""
+
+#: include/customizer/genral-option.php:79
+msgid "Logo Width"
+msgstr ""
+
+#: include/customizer/genral-option.php:93
+msgid "Logo Height"
+msgstr ""
+
+#: include/customizer/page-title-section.php:5
+msgid "Page Title Section"
+msgstr ""
+
+#: include/customizer/page-title-section.php:20
+msgid "Page Title Bg."
+msgstr ""
+
+#: include/customizer/social-links.php:5
+msgid "Social Section"
+msgstr ""
+
+#: include/customizer/social-links.php:35
+msgid "Facebook"
+msgstr ""
+
+#: include/customizer/social-links.php:50
+msgid "Twitter"
+msgstr ""
+
+#: include/customizer/social-links.php:64
+msgid "Skyup"
+msgstr ""
+
+#: include/customizer/social-links.php:78
+msgid "Google-plus"
+msgstr ""
+
+#: include/customizer/theme-customizer.php:6
+msgid "Hotel Galaxy Settings"
+msgstr ""
+
+#: include/default_settings.php:8
+msgid "310"
+msgstr ""
+
+#: include/default_settings.php:9
+msgid "56"
+msgstr ""
+
+#: include/default_settings.php:12 include/default_settings.php:118
+#: include/default_settings.php:136
+msgid "1"
+msgstr ""
+
+#: include/default_settings.php:120
+msgid "Free Wi-Fi internet"
+msgstr ""
+
+#: include/default_settings.php:121
+msgid "fa fa-wifi"
+msgstr ""
+
+#: include/default_settings.php:122 include/default_settings.php:126
+#: include/default_settings.php:130 include/default_settings.php:134
+msgid "#"
+msgstr ""
+
+#: include/default_settings.php:124
+msgid "Deluxe Bad Room"
+msgstr ""
+
+#: include/default_settings.php:125
+msgid "fa fa-bed"
+msgstr ""
+
+#: include/default_settings.php:128
+msgid "Fresh Foods & drinks"
+msgstr ""
+
+#: include/default_settings.php:129
+msgid "fa fa-cutlery"
+msgstr ""
+
+#: include/default_settings.php:132
+msgid "Free public parking"
+msgstr ""
+
+#: include/default_settings.php:133
+msgid "fa fa-car"
+msgstr ""
+
+#: include/default_settings.php:137
+msgid " &#169; 2016 Hotel Gallexy Theme"
+msgstr ""
+
+#: include/default_settings.php:138
+msgid "All rights reserved."
+msgstr ""
+
+#: include/default_settings.php:139
+msgid "Hotel Gallexy"
+msgstr ""
+
+#: include/default_settings.php:142
+msgid "About Hotel"
+msgstr ""
+
+#: include/default_settings.php:143
+msgid ""
+"Laculis diam eu tortor euismodolo. Vestib primis inicibu orci luctus edloret "
+"ultrices odiocinialor it matis.Laculis diam eu tortor euismodolo. Vestib "
+"primis inicibu orci luctus edloret ultrices odiocinialor it matis."
+msgstr ""
+
+#: include/default_settings.php:145
+msgid "Follow Us"
+msgstr ""
+
+#: include/default_settings.php:147
+msgid "News & Events"
+msgstr ""
+
+#: include/default_settings.php:148
+msgid "2"
+msgstr ""
+
+#: include/default_settings.php:150
+msgid "Contact Us"
+msgstr ""
+
+#: include/default_settings.php:151
+msgid "Some street.some town"
+msgstr ""
+
+#: include/default_settings.php:152
+msgid "(85)8998-4488-896"
+msgstr ""
+
+#: include/default_settings.php:153
+msgid "info@online.edu.com"
+msgstr ""
+
+#: include/theme-functions/breadcrums.php:69
+msgid "Error 404"
+msgstr ""
+
+#: include/theme-functions/breadcrums.php:116
+#: include/theme-functions/breadcrums.php:124
+#: include/theme-functions/breadcrums.php:129 pages/page-nocontent.php:14
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: include/theme-functions/breadcrums.php:118
+#: include/theme-functions/breadcrums.php:127
+#, php-format
+msgid "%1$s  %2$s"
+msgstr ""
+
+#: include/theme-functions/comment-function.php:11
+msgid "<i class=\"fa fa-comment-o\"></i>Reply"
+msgstr ""
+
+#: include/theme-functions/pagination.php:66
+msgid "Previous"
+msgstr ""
+
+#: include/theme-functions/pagination.php:67
+msgid "Next"
+msgstr ""
+
+#: include/theme-functions/pagination.php:68
+msgid " "
+msgstr ""
+
+#: include/theme-functions/read-more-btn.php:11
+msgid "Read More"
+msgstr ""
+
+#: include/theme-functions/sidebar-manage.php:7
+msgid "Sidebar"
+msgstr ""
+
+#: include/theme-functions/sidebar-manage.php:9
+msgid "The primary widget area"
+msgstr ""
+
+#: include/theme-functions/theme-setup-function.php:23
+msgid "Primary Menu"
+msgstr ""
+
+#: pages/author-intro.php:4
+msgid "About the Author"
+msgstr ""
+
+#: pages/page-nocontent.php:15
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: pages/page-nocontent.php:16
+msgid "Go To Homepage"
+msgstr ""
+
+#: pages/post-content.php:28
+msgid "more"
+msgstr ""
+
+#: pages/post-content.php:35
+msgid "Pages:"
+msgstr ""
+
+#: pages/post-content.php:41
+msgid "Next page"
+msgstr ""
+
+#: pages/post-content.php:42
+msgid "Previous page"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search "
+msgstr ""

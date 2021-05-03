@@ -1,0 +1,1100 @@
+0000.000 (0) Opened log file at time: Fri, 06 Nov 2020 08:44:00 +1100 on https://dev.u20s1035.monash-ie.me
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.5.1 PHP: 7.2.34 (fpm-fcgi, Linux alpha.monash-ie.me 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64) MySQL: 5.7.32 WPLANG: en_AU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 78M | 80.5M) multisite: N openssl: OpenSSL 1.1.1h  22 Sep 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.040 (0) Free space on disk containing Updraft's temporary directory: 214349.9 MB
+0000.043 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.048 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1604532518, seconds_ago=80122)
+0000.053 (0) Set semaphore last lock (fd) time to 2020-11-05 21:44:00
+0000.054 (0) Semaphore lock (fd) complete
+0000.059 (0) Backup run: resumption=0, nonce=0562e4a32eff, file_nonce=0562e4a32eff begun at=1604612640 (0s ago), job type=backup
+0000.062 (0) Scheduling a resumption (1) after 300 seconds (1604612940) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.077 (0) Testing: /usr/bin/zip
+0000.085 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.087 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.092 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.102 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.104 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.111 (0) Working binary zip found: /usr/bin/zip
+0000.115 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.116 (0) Creation of backups of directories: beginning
+0000.121 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.625 (0) Total entities for the zip file: 1215 directories, 6635 files (0 skipped as non-modified), 109.4 MB
+0000.634 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.640 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.646 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.651 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.657 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.659 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 6635 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.004 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: size is now: 1.50 MB
+0001.012 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 600 files added (on-disk size: 1521.7 KB)
+0001.018 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 700 files added (on-disk size: 1521.7 KB)
+0001.025 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 800 files added (on-disk size: 1521.7 KB)
+0001.031 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 900 files added (on-disk size: 1521.7 KB)
+0001.037 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1000 files added (on-disk size: 1521.7 KB)
+0001.039 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 6635 files batched, 501 (1002) added so far); re-opening (prior size: 1521.7 KB)
+0001.465 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: size is now: 3.60 MB
+0001.474 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1100 files added (on-disk size: 3716.4 KB)
+0001.480 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1200 files added (on-disk size: 3716.4 KB)
+0001.487 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1300 files added (on-disk size: 3716.4 KB)
+0001.492 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1400 files added (on-disk size: 3716.4 KB)
+0001.499 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1500 files added (on-disk size: 3716.4 KB)
+0001.500 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.7 MB, 6635 files batched, 501 (1503) added so far); re-opening (prior size: 3716.4 KB)
+0002.468 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: size is now: 9.10 MB
+0002.476 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1600 files added (on-disk size: 9308.2 KB)
+0002.483 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1700 files added (on-disk size: 9308.2 KB)
+0002.489 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1800 files added (on-disk size: 9308.2 KB)
+0002.495 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 1900 files added (on-disk size: 9308.2 KB)
+0002.501 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2000 files added (on-disk size: 9308.2 KB)
+0002.503 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 6635 files batched, 501 (2004) added so far); re-opening (prior size: 9308.2 KB)
+0002.885 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: size is now: 11.10 MB
+0002.894 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2100 files added (on-disk size: 11401 KB)
+0002.900 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2200 files added (on-disk size: 11401 KB)
+0002.906 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2300 files added (on-disk size: 11401 KB)
+0002.913 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2400 files added (on-disk size: 11401 KB)
+0002.919 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2500 files added (on-disk size: 11401 KB)
+0002.921 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.9 MB, 6635 files batched, 501 (2505) added so far); re-opening (prior size: 11401 KB)
+0003.880 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: size is now: 15.40 MB
+0003.889 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2600 files added (on-disk size: 15780.1 KB)
+0003.895 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2700 files added (on-disk size: 15780.1 KB)
+0003.901 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2800 files added (on-disk size: 15780.1 KB)
+0003.907 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 2900 files added (on-disk size: 15780.1 KB)
+0003.913 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3000 files added (on-disk size: 15780.1 KB)
+0003.915 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 6635 files batched, 501 (3006) added so far); re-opening (prior size: 15780.1 KB)
+0004.252 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3100 files added (on-disk size: 16575.4 KB)
+0004.259 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3200 files added (on-disk size: 16575.4 KB)
+0004.265 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3300 files added (on-disk size: 16575.4 KB)
+0004.271 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3400 files added (on-disk size: 16575.4 KB)
+0004.277 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3500 files added (on-disk size: 16575.4 KB)
+0004.279 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 6635 files batched, 501 (3507) added so far); re-opening (prior size: 16575.4 KB)
+0004.842 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3600 files added (on-disk size: 19864.7 KB)
+0004.848 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3700 files added (on-disk size: 19864.7 KB)
+0004.854 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3800 files added (on-disk size: 19864.7 KB)
+0004.860 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 3900 files added (on-disk size: 19864.7 KB)
+0004.867 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4000 files added (on-disk size: 19864.7 KB)
+0004.869 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 6635 files batched, 501 (4008) added so far); re-opening (prior size: 19864.7 KB)
+0005.474 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4100 files added (on-disk size: 23652.6 KB)
+0005.481 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4200 files added (on-disk size: 23652.6 KB)
+0005.487 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4300 files added (on-disk size: 23652.6 KB)
+0005.493 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4400 files added (on-disk size: 23652.6 KB)
+0005.499 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4500 files added (on-disk size: 23652.6 KB)
+0005.501 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 6635 files batched, 501 (4509) added so far); re-opening (prior size: 23652.6 KB)
+0006.201 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4600 files added (on-disk size: 26991.9 KB)
+0006.208 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4700 files added (on-disk size: 26991.9 KB)
+0006.214 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4800 files added (on-disk size: 26991.9 KB)
+0006.220 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 4900 files added (on-disk size: 26991.9 KB)
+0006.227 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5000 files added (on-disk size: 26991.9 KB)
+0006.229 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 6635 files batched, 501 (5010) added so far); re-opening (prior size: 26991.9 KB)
+0007.074 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5100 files added (on-disk size: 31084.2 KB)
+0007.080 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5200 files added (on-disk size: 31084.2 KB)
+0007.086 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5300 files added (on-disk size: 31084.2 KB)
+0007.092 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5400 files added (on-disk size: 31084.2 KB)
+0007.098 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5500 files added (on-disk size: 31084.2 KB)
+0007.100 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 6635 files batched, 501 (5511) added so far); re-opening (prior size: 31084.2 KB)
+0007.585 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5600 files added (on-disk size: 33267.8 KB)
+0007.591 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5700 files added (on-disk size: 33267.8 KB)
+0007.597 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5800 files added (on-disk size: 33267.8 KB)
+0007.603 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 5900 files added (on-disk size: 33267.8 KB)
+0007.609 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6000 files added (on-disk size: 33267.8 KB)
+0007.612 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 6635 files batched, 501 (6012) added so far); re-opening (prior size: 33267.8 KB)
+0008.235 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6100 files added (on-disk size: 37158.8 KB)
+0008.241 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6200 files added (on-disk size: 37158.8 KB)
+0008.248 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6300 files added (on-disk size: 37158.8 KB)
+0008.254 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6400 files added (on-disk size: 37158.8 KB)
+0008.261 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6500 files added (on-disk size: 37158.8 KB)
+0008.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 6635 files batched, 501 (6513) added so far); re-opening (prior size: 37158.8 KB)
+0008.629 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip.tmp: 6600 files added (on-disk size: 37891.3 KB)
+0009.358 (0) Created plugins zip (0) - 38602.5 KB in 9.2 s (4196.7 KB/s) (sha1: 41695a10f6c7ea993a080a0ea176884d1046772c, sha256: 7020d351cecfcd1f9db91e86ee37e5deba1556bb5ed2e4b043805506b84ee33a)
+0009.362 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.415 (0) Total entities for the zip file: 31 directories, 206 files (0 skipped as non-modified), 17.8 MB
+0009.422 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.428 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.783 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip.tmp: size is now: 15.80 MB
+0009.976 (0) Created themes zip (0) - 16155.3 KB in 0.6 s (28085.6 KB/s) (sha1: e0aff611ad5b8c4d9d9f7cec9dc7ff9c2ad749f7, sha256: 8cd01d23f2ff5a7ffdfa70b96358f68a1bfdd8aa80da6bdc4e918c381c63a632)
+0009.980 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.981 (0) Looking for candidates to backup in: /home/u20s1035/dev_root/wp-content/uploads
+0009.983 (0) finding files: 2020: adding to list (1)
+0009.984 (0) finding files: mailpoet: adding to list (2)
+0009.986 (0) finding files: ig-logs: adding to list (3)
+0009.987 (0) finding files: bb-plugin: adding to list (4)
+0009.989 (0) finding files: booking_calendar: adding to list (5)
+0009.991 (0) finding files: smush-1f9898bdafc204a9ac92.log: adding to list (6)
+0009.992 (0) finding files: wp-security-audit-log: adding to list (7)
+0009.994 (0) finding files: ur-logs: adding to list (8)
+0009.995 (0) finding files: wpo-plugins-tables-list.json: adding to list (9)
+0009.997 (0) finding files: ithemes-security: adding to list (10)
+0009.998 (0) finding files: cache: adding to list (11)
+0010.000 (0) finding files: elementor: adding to list (12)
+0010.002 (0) finding files: mainwp: adding to list (13)
+0010.003 (0) finding files: slider3: adding to list (14)
+0010.005 (0) finding files: slider4: adding to list (15)
+0010.007 (0) finding files: mailpoet-premium: adding to list (16)
+0010.008 (0) finding files: mc4wp-debug-log.php: adding to list (17)
+0010.010 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.121 (0) Total entities for the zip file: 157 directories, 714 files (0 skipped as non-modified), 61.5 MB
+0010.128 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.135 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.139 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 714 files batched, 258 (258) added so far); re-opening (prior size: 0 KB)
+0010.583 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: size is now: 25.10 MB
+0010.588 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 23810.6 KB/s)
+0010.591 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.0785319805145, normalised_time=1.0751524833878, max_time=10.589313983917, data points known=1, old_max_bytes=26214400, new_max_bytes=154913382)
+0010.596 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 300 files added (on-disk size: 25725.9 KB)
+0010.602 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 400 files added (on-disk size: 25725.9 KB)
+0010.608 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 500 files added (on-disk size: 25725.9 KB)
+0010.615 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 600 files added (on-disk size: 25725.9 KB)
+0010.621 (0) Zip: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: 700 files added (on-disk size: 25725.9 KB)
+0011.328 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip.tmp: size is now: 59.30 MB
+0012.032 (0) Created uploads zip (0) - 60745.4 KB in 2 s (30637.7 KB/s) (sha1: ad0427095c260a196c3ce3b0659c896251de6336, sha256: dd445204c86e5412293b534889eaabc864d6b33250694dc185f2b9133b611b32)
+0012.035 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.037 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.038 (0) Looking for candidates to backup in: /home/u20s1035/dev_root/wp-content
+0012.040 (0) finding files: index.php: adding to list (1)
+0012.041 (0) finding files: plugins: skipping: this is the plugins directory
+0012.043 (0) finding files: languages: adding to list (2)
+0012.044 (0) finding files: upgrade: skipping: excluded by options
+0012.046 (0) finding files: uploads: skipping: this is the uploads directory
+0012.047 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0012.048 (0) finding files: updraft: skipping: this is the updraft directory
+0012.049 (0) finding files: wphb-logs: adding to list (3)
+0012.051 (0) finding files: wphb-cache: adding to list (4)
+0012.052 (0) finding files: wflogs: adding to list (5)
+0012.054 (0) finding files: cache: skipping: excluded by options
+0012.056 (0) finding files: wpo-cache: adding to list (6)
+0012.057 (0) finding files: themes: skipping: this is the themes directory
+0012.059 (0) finding files: logs: adding to list (7)
+0012.102 (0) Total entities for the zip file: 10 directories, 77 files (0 skipped as non-modified), 7.6 MB
+0012.667 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-others.zip.tmp: size is now: 3.00 MB
+0012.710 (0) Created others zip (0) - 3054 KB in 0.6 s (4991.2 KB/s) (sha1: 93e58dd106e8dfabff2ebc4ff2ce6f446309780b, sha256: da6dfd027af898ba92609d5e2ec9f3757a39651c6ef1f2d2a9ae1fa016583643)
+0012.716 (0) Saving backup status to database (elements: 8)
+0012.720 (0) Beginning creation of database dump (WordPress DB)
+0012.722 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0012.725 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0012.739 (0) Binary mysqldump: error (code: 2)
+0012.741 (0) Testing potential mysqldump binary: /bin/mysqldump
+0012.752 (0) Binary mysqldump: error (code: 2)
+0012.762 (0) Table wp_options: Total expected rows (approximate): 1309
+0012.804 (0) Table wp_options: Rows added in this batch (next record: 37373): 1293 in 0.04 seconds
+0012.810 (0) Table wp_options: finishing file(s) (2, 128.2 KB)
+0012.814 (0) Table wp_users: Total expected rows (approximate): 10
+0012.817 (0) Table wp_users: Rows added in this batch (next record: 26): 12 in 0.00 seconds
+0012.822 (0) Table wp_users: finishing file(s) (2, 1.3 KB)
+0012.826 (0) Table wp_usermeta: Total expected rows (approximate): 325
+0012.831 (0) Table wp_usermeta: Rows added in this batch (next record: 1957): 325 in 0.00 seconds
+0012.836 (0) Table wp_usermeta: finishing file(s) (2, 9.2 KB)
+0012.840 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0012.843 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0012.848 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0012.852 (0) Table wp_comments: Total expected rows (approximate): 1
+0012.855 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0012.860 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0012.864 (0) Table wp_links: Total expected rows (approximate): 0
+0012.868 (0) Table wp_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0012.874 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0012.878 (0) Table wp_postmeta: Total expected rows (approximate): 1214
+0012.892 (0) Table wp_postmeta: Rows added in this batch (next record: 6293): 1098 in 0.01 seconds
+0012.897 (0) Table wp_postmeta: finishing file(s) (2, 36.9 KB)
+0012.901 (0) Table wp_posts: Total expected rows (approximate): 304
+0012.913 (0) Table wp_posts: Rows added in this batch (next record: 1797): 310 in 0.01 seconds
+0012.919 (0) Table wp_posts: finishing file(s) (2, 28.8 KB)
+0012.923 (0) Table wp_term_relationships: Total expected rows (approximate): 243
+0012.926 (0) Table wp_term_relationships: Rows added in this batch (next record: 833): 249 in 0.00 seconds
+0012.932 (0) Table wp_term_relationships: finishing file(s) (2, 1.2 KB)
+0012.936 (0) Table wp_term_taxonomy: Total expected rows (approximate): 495
+0012.942 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 833): 650 in 0.00 seconds
+0012.947 (0) Table wp_term_taxonomy: finishing file(s) (2, 5.2 KB)
+0012.951 (0) Table wp_termmeta: Total expected rows (approximate): 56
+0012.954 (0) Table wp_termmeta: Rows added in this batch (next record: 57): 57 in 0.00 seconds
+0012.959 (0) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0012.963 (0) Table wp_terms: Total expected rows (approximate): 503
+0012.968 (0) Table wp_terms: Rows added in this batch (next record: 833): 545 in 0.00 seconds
+0012.973 (0) Table wp_terms: finishing file(s) (2, 6.9 KB)
+0012.975 (0) Skipping table (lacks our prefix (wp_)): venue_bookings
+0012.979 (0) Table wp_a3_exclude_email_subject: Total expected rows (approximate): 0
+0012.983 (0) Table wp_a3_exclude_email_subject: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0012.988 (0) Table wp_a3_exclude_email_subject: finishing file(s) (2, 0.3 KB)
+0012.992 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 9
+0012.996 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 155): 9 in 0.00 seconds
+0013.002 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0013.006 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0013.010 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.016 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0013.020 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0013.023 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0013.029 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0013.033 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 22
+0013.036 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 89): 27 in 0.00 seconds
+0013.042 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.8 KB)
+0013.046 (0) Table wp_admin_columns: Total expected rows (approximate): 6
+0013.050 (0) Table wp_admin_columns: Rows added in this batch (next record: 7): 7 in 0.00 seconds
+0013.056 (0) Table wp_admin_columns: finishing file(s) (2, 1.7 KB)
+0013.060 (0) Table wp_booking: Total expected rows (approximate): 1
+0013.064 (0) Table wp_booking: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0013.069 (0) Table wp_booking: finishing file(s) (2, 0.6 KB)
+0013.073 (0) Table wp_bookingdates: Total expected rows (approximate): 3
+0013.076 (0) Table wp_bookingdates: Rows added in this batch (next record: 1000): 3 in 0.00 seconds
+0013.081 (0) Table wp_bookingdates: finishing file(s) (2, 0.4 KB)
+0013.085 (0) Table wp_fbv: Total expected rows (approximate): 3
+0013.090 (0) Table wp_fbv: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0013.095 (0) Table wp_fbv: finishing file(s) (2, 0.4 KB)
+0013.099 (0) Table wp_fbv_attachment_folder: Total expected rows (approximate): 6
+0013.102 (0) Table wp_fbv_attachment_folder: Rows added in this batch (next record: 186): 6 in 0.00 seconds
+0013.108 (0) Table wp_fbv_attachment_folder: finishing file(s) (2, 0.4 KB)
+0013.112 (0) Table wp_fed_menu: Total expected rows (approximate): 1
+0013.116 (0) Table wp_fed_menu: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0013.121 (0) Table wp_fed_menu: finishing file(s) (2, 0.6 KB)
+0013.125 (0) Table wp_fed_menu_meta: Total expected rows (approximate): 0
+0013.128 (0) Table wp_fed_menu_meta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.133 (0) Table wp_fed_menu_meta: finishing file(s) (2, 0.4 KB)
+0013.137 (0) Table wp_fed_payment: Total expected rows (approximate): 0
+0013.140 (0) Table wp_fed_payment: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.146 (0) Table wp_fed_payment: finishing file(s) (2, 0.5 KB)
+0013.150 (0) Table wp_fed_payment_items: Total expected rows (approximate): 0
+0013.154 (0) Table wp_fed_payment_items: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.158 (0) Table wp_fed_payment_items: finishing file(s) (2, 0.4 KB)
+0013.162 (0) Table wp_fed_post: Total expected rows (approximate): 0
+0013.166 (0) Table wp_fed_post: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.171 (0) Table wp_fed_post: finishing file(s) (2, 0.5 KB)
+0013.175 (0) Table wp_fed_user_profile: Total expected rows (approximate): 11
+0013.179 (0) Table wp_fed_user_profile: Rows added in this batch (next record: 11): 11 in 0.00 seconds
+0013.184 (0) Table wp_fed_user_profile: finishing file(s) (2, 1 KB)
+0013.188 (0) Table wp_ig_actions: Total expected rows (approximate): 12
+0013.192 (0) Table wp_ig_actions: Rows added in this batch (next record: 1000): 14 in 0.00 seconds
+0013.197 (0) Table wp_ig_actions: finishing file(s) (2, 0.6 KB)
+0013.201 (0) Table wp_ig_blocked_emails: Total expected rows (approximate): 0
+0013.204 (0) Table wp_ig_blocked_emails: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.209 (0) Table wp_ig_blocked_emails: finishing file(s) (2, 0.4 KB)
+0013.213 (0) Table wp_ig_campaigns: Total expected rows (approximate): 3
+0013.217 (0) Table wp_ig_campaigns: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0013.222 (0) Table wp_ig_campaigns: finishing file(s) (2, 1.3 KB)
+0013.226 (0) Table wp_ig_contact_meta: Total expected rows (approximate): 0
+0013.229 (0) Table wp_ig_contact_meta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.234 (0) Table wp_ig_contact_meta: finishing file(s) (2, 0.4 KB)
+0013.238 (0) Table wp_ig_contactmeta: Total expected rows (approximate): 0
+0013.242 (0) Table wp_ig_contactmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.247 (0) Table wp_ig_contactmeta: finishing file(s) (2, 0.4 KB)
+0013.251 (0) Table wp_ig_contacts: Total expected rows (approximate): 2
+0013.255 (0) Table wp_ig_contacts: Rows added in this batch (next record: 2): 1 in 0.00 seconds
+0013.260 (0) Table wp_ig_contacts: finishing file(s) (2, 0.7 KB)
+0013.264 (0) Table wp_ig_contacts_ips: Total expected rows (approximate): 0
+0013.267 (0) Table wp_ig_contacts_ips: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0013.272 (0) Table wp_ig_contacts_ips: finishing file(s) (2, 0.3 KB)
+0013.276 (0) Table wp_ig_forms: Total expected rows (approximate): 1
+0013.279 (0) Table wp_ig_forms: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0013.285 (0) Table wp_ig_forms: finishing file(s) (2, 0.7 KB)
+0013.288 (0) Table wp_ig_links: Total expected rows (approximate): 0
+0013.292 (0) Table wp_ig_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.297 (0) Table wp_ig_links: finishing file(s) (2, 0.4 KB)
+0013.301 (0) Table wp_ig_lists: Total expected rows (approximate): 2
+0013.305 (0) Table wp_ig_lists: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0013.310 (0) Table wp_ig_lists: finishing file(s) (2, 0.5 KB)
+0013.314 (0) Table wp_ig_lists_contacts: Total expected rows (approximate): 1
+0013.318 (0) Table wp_ig_lists_contacts: Rows added in this batch (next record: 3): 1 in 0.00 seconds
+0013.323 (0) Table wp_ig_lists_contacts: finishing file(s) (2, 0.5 KB)
+0013.327 (0) Table wp_ig_mailing_queue: Total expected rows (approximate): 5
+0013.332 (0) Table wp_ig_mailing_queue: Rows added in this batch (next record: 6): 6 in 0.00 seconds
+0013.337 (0) Table wp_ig_mailing_queue: finishing file(s) (2, 1.8 KB)
+0013.342 (0) Table wp_ig_queue: Total expected rows (approximate): 0
+0013.345 (0) Table wp_ig_queue: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0013.351 (0) Table wp_ig_queue: finishing file(s) (2, 0.5 KB)
+0013.355 (0) Table wp_ig_sending_queue: Total expected rows (approximate): 10
+0013.359 (0) Table wp_ig_sending_queue: Rows added in this batch (next record: 11): 11 in 0.00 seconds
+0013.364 (0) Table wp_ig_sending_queue: finishing file(s) (2, 0.9 KB)
+0013.369 (0) Table wp_ig_workflows: Total expected rows (approximate): 0
+0013.372 (0) Table wp_ig_workflows: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.378 (0) Table wp_ig_workflows: finishing file(s) (2, 0.4 KB)
+0013.382 (0) Table wp_ig_workflows_queue: Total expected rows (approximate): 0
+0013.385 (0) Table wp_ig_workflows_queue: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.391 (0) Table wp_ig_workflows_queue: finishing file(s) (2, 0.4 KB)
+0013.395 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0013.398 (0) Table wp_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0013.403 (0) Table wp_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0013.407 (0) Table wp_login_log: Total expected rows (approximate): 8
+0013.411 (0) Table wp_login_log: Rows added in this batch (next record: 8): 8 in 0.00 seconds
+0013.417 (0) Table wp_login_log: finishing file(s) (2, 0.5 KB)
+0013.421 (0) Table wp_login_redirects: Total expected rows (approximate): 4
+0013.425 (0) Table wp_login_redirects: Rows added in this batch (next record: 1000): 5 in 0.00 seconds
+0013.430 (0) Table wp_login_redirects: finishing file(s) (2, 0.5 KB)
+0013.434 (0) Table wp_mailpoet_custom_fields: Total expected rows (approximate): 0
+0013.438 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.444 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0013.448 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (approximate): 0
+0013.451 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.456 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0013.460 (0) Table wp_mailpoet_feature_flags: Total expected rows (approximate): 0
+0013.464 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.469 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0013.473 (0) Table wp_mailpoet_forms: Total expected rows (approximate): 0
+0013.477 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0013.482 (0) Table wp_mailpoet_forms: finishing file(s) (2, 1.3 KB)
+0013.486 (0) Table wp_mailpoet_log: Total expected rows (approximate): 0
+0013.489 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.494 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0013.498 (0) Table wp_mailpoet_mapping_to_external_entities: Total expected rows (approximate): 0
+0013.502 (0) Table wp_mailpoet_mapping_to_external_entities: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0013.508 (0) Table wp_mailpoet_mapping_to_external_entities: finishing file(s) (2, 0.4 KB)
+0013.512 (0) Table wp_mailpoet_newsletter_links: Total expected rows (approximate): 0
+0013.515 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.520 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0013.524 (0) Table wp_mailpoet_newsletter_option: Total expected rows (approximate): 8
+0013.528 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: 8): 8 in 0.00 seconds
+0013.533 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.6 KB)
+0013.537 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (approximate): 20
+0013.540 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 20): 20 in 0.00 seconds
+0013.545 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.7 KB)
+0013.549 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (approximate): 0
+0013.553 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.558 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0013.562 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (approximate): 0
+0013.566 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0013.571 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.5 KB)
+0013.575 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (approximate): 67
+0013.610 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 75): 75 in 0.03 seconds
+0013.616 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 81.4 KB)
+0013.621 (0) Table wp_mailpoet_newsletters: Total expected rows (approximate): 0
+0013.626 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0013.631 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 2.6 KB)
+0013.635 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0013.639 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.644 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0013.648 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (approximate): 11
+0013.652 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 12): 11 in 0.00 seconds
+0013.657 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 0.9 KB)
+0013.661 (0) Table wp_mailpoet_segments: Total expected rows (approximate): 3
+0013.664 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 4): 4 in 0.00 seconds
+0013.670 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.6 KB)
+0013.674 (0) Table wp_mailpoet_sending_queues: Total expected rows (approximate): 0
+0013.677 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.682 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0013.686 (0) Table wp_mailpoet_settings: Total expected rows (approximate): 36
+0013.690 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 311): 36 in 0.00 seconds
+0013.695 (0) Table wp_mailpoet_settings: finishing file(s) (2, 2.1 KB)
+0013.699 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (approximate): 0
+0013.702 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.707 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.4 KB)
+0013.711 (0) Table wp_mailpoet_statistics_forms: Total expected rows (approximate): 0
+0013.714 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.719 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0013.723 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (approximate): 0
+0013.727 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.732 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0013.736 (0) Table wp_mailpoet_statistics_opens: Total expected rows (approximate): 0
+0013.739 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.744 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.4 KB)
+0013.748 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (approximate): 0
+0013.752 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.757 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.5 KB)
+0013.761 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (approximate): 0
+0013.764 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.770 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.5 KB)
+0013.774 (0) Table wp_mailpoet_stats_notifications: Total expected rows (approximate): 0
+0013.777 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.782 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0013.787 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (approximate): 0
+0013.790 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.795 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0013.799 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0013.802 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0013.808 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.4 KB)
+0013.812 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (approximate): 10
+0013.816 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 16): 11 in 0.00 seconds
+0013.821 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.6 KB)
+0013.826 (0) Table wp_mailpoet_subscribers: Total expected rows (approximate): 10
+0013.829 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 10): 10 in 0.00 seconds
+0013.835 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 1.2 KB)
+0013.839 (0) Table wp_mailpoet_user_flags: Total expected rows (approximate): 0
+0013.842 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0013.848 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.5 KB)
+0013.852 (0) Table wp_mainwp_client_report: Total expected rows (approximate): 2
+0013.856 (0) Table wp_mainwp_client_report: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0013.862 (0) Table wp_mainwp_client_report: finishing file(s) (2, 2.3 KB)
+0013.866 (0) Table wp_mainwp_client_report_client: Total expected rows (approximate): 0
+0013.869 (0) Table wp_mainwp_client_report_client: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.874 (0) Table wp_mainwp_client_report_client: finishing file(s) (2, 0.4 KB)
+0013.878 (0) Table wp_mainwp_client_report_format: Total expected rows (approximate): 3
+0013.882 (0) Table wp_mainwp_client_report_format: Rows added in this batch (next record: 3): 3 in 0.00 seconds
+0013.887 (0) Table wp_mainwp_client_report_format: finishing file(s) (2, 2.1 KB)
+0013.891 (0) Table wp_mainwp_client_report_site_token: Total expected rows (approximate): 0
+0013.894 (0) Table wp_mainwp_client_report_site_token: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.899 (0) Table wp_mainwp_client_report_site_token: finishing file(s) (2, 0.4 KB)
+0013.903 (0) Table wp_mainwp_client_report_token: Total expected rows (approximate): 12
+0013.906 (0) Table wp_mainwp_client_report_token: Rows added in this batch (next record: 12): 12 in 0.00 seconds
+0013.912 (0) Table wp_mainwp_client_report_token: finishing file(s) (2, 0.6 KB)
+0013.916 (0) Table wp_mainwp_group: Total expected rows (approximate): 0
+0013.919 (0) Table wp_mainwp_group: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.924 (0) Table wp_mainwp_group: finishing file(s) (2, 0.3 KB)
+0013.928 (0) Table wp_mainwp_request_log: Total expected rows (approximate): 0
+0013.932 (0) Table wp_mainwp_request_log: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.937 (0) Table wp_mainwp_request_log: finishing file(s) (2, 0.4 KB)
+0013.941 (0) Table wp_mainwp_tips: Total expected rows (approximate): 0
+0013.945 (0) Table wp_mainwp_tips: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.950 (0) Table wp_mainwp_tips: finishing file(s) (2, 0.3 KB)
+0013.954 (0) Table wp_mainwp_users: Total expected rows (approximate): 0
+0013.957 (0) Table wp_mainwp_users: Rows added in this batch (next record: 0): 1 in 0.00 seconds
+0013.963 (0) Table wp_mainwp_users: finishing file(s) (2, 0.5 KB)
+0013.967 (0) Table wp_mainwp_wp: Total expected rows (approximate): 0
+0013.970 (0) Table wp_mainwp_wp: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.975 (0) Table wp_mainwp_wp: finishing file(s) (2, 0.8 KB)
+0013.979 (0) Table wp_mainwp_wp_backup: Total expected rows (approximate): 0
+0013.983 (0) Table wp_mainwp_wp_backup: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0013.988 (0) Table wp_mainwp_wp_backup: finishing file(s) (2, 0.6 KB)
+0013.992 (0) Table wp_mainwp_wp_backup_progress: Total expected rows (approximate): 0
+0013.995 (0) Table wp_mainwp_wp_backup_progress: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.001 (0) Table wp_mainwp_wp_backup_progress: finishing file(s) (2, 0.4 KB)
+0014.004 (0) Table wp_mainwp_wp_group: Total expected rows (approximate): 0
+0014.008 (0) Table wp_mainwp_wp_group: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.013 (0) Table wp_mainwp_wp_group: finishing file(s) (2, 0.3 KB)
+0014.017 (0) Table wp_mainwp_wp_options: Total expected rows (approximate): 0
+0014.020 (0) Table wp_mainwp_wp_options: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.025 (0) Table wp_mainwp_wp_options: finishing file(s) (2, 0.3 KB)
+0014.029 (0) Table wp_mainwp_wp_settings_backup: Total expected rows (approximate): 0
+0014.033 (0) Table wp_mainwp_wp_settings_backup: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.038 (0) Table wp_mainwp_wp_settings_backup: finishing file(s) (2, 0.3 KB)
+0014.042 (0) Table wp_mainwp_wp_sync: Total expected rows (approximate): 0
+0014.045 (0) Table wp_mainwp_wp_sync: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.050 (0) Table wp_mainwp_wp_sync: finishing file(s) (2, 0.4 KB)
+0014.055 (0) Table wp_newsletter: Total expected rows (approximate): 0
+0014.059 (0) Table wp_newsletter: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0014.065 (0) Table wp_newsletter: finishing file(s) (2, 0.9 KB)
+0014.069 (0) Table wp_newsletter_emails: Total expected rows (approximate): 0
+0014.072 (0) Table wp_newsletter_emails: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.077 (0) Table wp_newsletter_emails: finishing file(s) (2, 0.6 KB)
+0014.081 (0) Table wp_newsletter_sent: Total expected rows (approximate): 0
+0014.084 (0) Table wp_newsletter_sent: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.089 (0) Table wp_newsletter_sent: finishing file(s) (2, 0.4 KB)
+0014.093 (0) Table wp_newsletter_stats: Total expected rows (approximate): 0
+0014.096 (0) Table wp_newsletter_stats: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.101 (0) Table wp_newsletter_stats: finishing file(s) (2, 0.4 KB)
+0014.105 (0) Table wp_newsletter_user_logs: Total expected rows (approximate): 0
+0014.108 (0) Table wp_newsletter_user_logs: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.113 (0) Table wp_newsletter_user_logs: finishing file(s) (2, 0.4 KB)
+0014.117 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 12
+0014.121 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 14): 14 in 0.00 seconds
+0014.127 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 1.2 KB)
+0014.131 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 12
+0014.141 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10072): 12 in 0.01 seconds
+0014.146 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 14.2 KB)
+0014.150 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 3
+0014.154 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: 4): 4 in 0.00 seconds
+0014.159 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.7 KB)
+0014.163 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 4
+0014.170 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 5): 5 in 0.01 seconds
+0014.176 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 5.8 KB)
+0014.180 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 3
+0014.184 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 5): 4 in 0.00 seconds
+0014.189 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0014.193 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 8
+0014.199 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 16): 8 in 0.00 seconds
+0014.205 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 4.4 KB)
+0014.209 (0) Table wp_podsrel: Total expected rows (approximate): 0
+0014.212 (0) Table wp_podsrel: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.217 (0) Table wp_podsrel: finishing file(s) (2, 0.4 KB)
+0014.222 (0) Table wp_richreviews: Total expected rows (approximate): 3
+0014.225 (0) Table wp_richreviews: Rows added in this batch (next record: 9): 3 in 0.00 seconds
+0014.230 (0) Table wp_richreviews: finishing file(s) (2, 0.6 KB)
+0014.235 (0) Table wp_rmp_analytics: Total expected rows (approximate): 6
+0014.239 (0) Table wp_rmp_analytics: Rows added in this batch (next record: 6): 6 in 0.00 seconds
+0014.244 (0) Table wp_rmp_analytics: finishing file(s) (2, 0.6 KB)
+0014.248 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0014.251 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.256 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0014.260 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0014.263 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.269 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0014.272 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0014.276 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.281 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0014.285 (0) Table wp_user_registration_sessions: Total expected rows (approximate): 0
+0014.288 (0) Table wp_user_registration_sessions: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.294 (0) Table wp_user_registration_sessions: finishing file(s) (2, 0.4 KB)
+0014.297 (0) Table wp_wfblockediplog: Total expected rows (approximate): 13
+0014.301 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 9 in 0.00 seconds
+0014.306 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.5 KB)
+0014.310 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0014.312 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.317 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0014.321 (0) Table wp_wfconfig: Total expected rows (approximate): 257
+0014.372 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 259 in 0.05 seconds
+0014.378 (0) Table wp_wfconfig: finishing file(s) (2, 423.8 KB)
+0014.382 (0) Table wp_wfcrawlers: Total expected rows (approximate): 9
+0014.386 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 13 in 0.00 seconds
+0014.391 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.6 KB)
+0014.395 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0014.398 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.403 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0014.408 (0) Table wp_wffilemods: Total expected rows (approximate): 8669
+0014.607 (0) Table wp_wffilemods: Rows added in this batch (next record: 9000): 8790 in 0.20 seconds
+0014.613 (0) Table wp_wffilemods: finishing file(s) (2, 865.8 KB)
+0014.618 (0) Table wp_wfhits: Total expected rows (approximate): 209
+0014.628 (0) Table wp_wfhits: Rows added in this batch (next record: 6530): 234 in 0.01 seconds
+0014.634 (0) Table wp_wfhits: finishing file(s) (2, 12.8 KB)
+0014.638 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0014.642 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.647 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0014.651 (0) Table wp_wfissues: Total expected rows (approximate): 7
+0014.655 (0) Table wp_wfissues: Rows added in this batch (next record: 1968): 7 in 0.00 seconds
+0014.660 (0) Table wp_wfissues: finishing file(s) (2, 2.1 KB)
+0014.664 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 8860
+0014.716 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 8790): 8790 in 0.05 seconds
+0014.722 (0) Table wp_wfknownfilelist: finishing file(s) (2, 95.1 KB)
+0014.726 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0014.728 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.733 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0014.737 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0014.741 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 in 0.00 seconds
+0014.746 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0014.750 (0) Table wp_wflogins: Total expected rows (approximate): 2024
+0014.782 (0) Table wp_wflogins: Rows added in this batch (next record: 4697): 2001 in 0.03 seconds
+0014.788 (0) Table wp_wflogins: finishing file(s) (2, 39.3 KB)
+0014.793 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0014.796 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.802 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0014.805 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0014.808 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 19 in 0.00 seconds
+0014.813 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0014.817 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0014.821 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 2 in 0.00 seconds
+0014.826 (0) Table wp_wfnotifications: finishing file(s) (2, 0.6 KB)
+0014.830 (0) Table wp_wfpendingissues: Total expected rows (approximate): 2
+0014.833 (0) Table wp_wfpendingissues: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0014.838 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.8 KB)
+0014.842 (0) Table wp_wfreversecache: Total expected rows (approximate): 5
+0014.846 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 7 in 0.00 seconds
+0014.851 (0) Table wp_wfreversecache: finishing file(s) (2, 0.5 KB)
+0014.856 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0014.859 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0014.864 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0014.868 (0) Table wp_wfstatus: Total expected rows (approximate): 969
+0014.881 (0) Table wp_wfstatus: Rows added in this batch (next record: 12558): 986 in 0.01 seconds
+0014.887 (0) Table wp_wfstatus: finishing file(s) (2, 15 KB)
+0014.891 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0014.893 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 in 0.00 seconds
+0014.899 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0014.903 (0) Table wp_wpda_pricing_table_theme: Total expected rows (approximate): 5
+0014.908 (0) Table wp_wpda_pricing_table_theme: Rows added in this batch (next record: 104): 5 in 0.00 seconds
+0014.914 (0) Table wp_wpda_pricing_table_theme: finishing file(s) (2, 1.5 KB)
+0014.918 (0) Table wp_wpda_pricing_tables: Total expected rows (approximate): 1
+0014.921 (0) Table wp_wpda_pricing_tables: Rows added in this batch (next record: 50): 1 in 0.00 seconds
+0014.927 (0) Table wp_wpda_pricing_tables: finishing file(s) (2, 0.6 KB)
+0014.931 (0) Table wp_wpdevart_calendars: Total expected rows (approximate): 14
+0014.935 (0) Table wp_wpdevart_calendars: Rows added in this batch (next record: 1765): 17 in 0.00 seconds
+0014.941 (0) Table wp_wpdevart_calendars: finishing file(s) (2, 0.6 KB)
+0014.945 (0) Table wp_wpdevart_dates: Total expected rows (approximate): 859
+0014.957 (0) Table wp_wpdevart_dates: Rows added in this batch (next record: 1000): 889 in 0.01 seconds
+0014.963 (0) Table wp_wpdevart_dates: finishing file(s) (2, 6.5 KB)
+0014.967 (0) Table wp_wpdevart_extras: Total expected rows (approximate): 1
+0014.971 (0) Table wp_wpdevart_extras: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0014.976 (0) Table wp_wpdevart_extras: finishing file(s) (2, 0.5 KB)
+0014.980 (0) Table wp_wpdevart_forms: Total expected rows (approximate): 1
+0014.984 (0) Table wp_wpdevart_forms: Rows added in this batch (next record: 1): 1 in 0.00 seconds
+0014.990 (0) Table wp_wpdevart_forms: finishing file(s) (2, 0.5 KB)
+0014.994 (0) Table wp_wpdevart_payments: Total expected rows (approximate): 0
+0014.997 (0) Table wp_wpdevart_payments: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0015.003 (0) Table wp_wpdevart_payments: finishing file(s) (2, 0.4 KB)
+0015.007 (0) Table wp_wpdevart_reservations: Total expected rows (approximate): 32
+0015.011 (0) Table wp_wpdevart_reservations: Rows added in this batch (next record: 39): 32 in 0.00 seconds
+0015.017 (0) Table wp_wpdevart_reservations: finishing file(s) (2, 1.8 KB)
+0015.021 (0) Table wp_wpdevart_themes: Total expected rows (approximate): 21
+0015.038 (0) Table wp_wpdevart_themes: Rows added in this batch (next record: 1765): 64 in 0.02 seconds
+0015.043 (0) Table wp_wpdevart_themes: finishing file(s) (2, 8.2 KB)
+0015.048 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 2
+0015.052 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 in 0.00 seconds
+0015.058 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0015.062 (0) Table wp_wsal_metadata: Total expected rows (approximate): 189
+0015.067 (0) Table wp_wsal_metadata: Rows added in this batch (next record: 189): 189 in 0.00 seconds
+0015.072 (0) Table wp_wsal_metadata: finishing file(s) (2, 2.3 KB)
+0015.076 (0) Table wp_wsal_occurrences: Total expected rows (approximate): 17
+0015.081 (0) Table wp_wsal_occurrences: Rows added in this batch (next record: 17): 17 in 0.00 seconds
+0015.086 (0) Table wp_wsal_occurrences: finishing file(s) (2, 0.6 KB)
+0015.091 (0) Table wp_wsal_options: Total expected rows (approximate): 21
+0015.095 (0) Table wp_wsal_options: Rows added in this batch (next record: 21): 21 in 0.00 seconds
+0015.100 (0) Table wp_wsal_options: finishing file(s) (2, 1.4 KB)
+0015.102 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_options.table.tmpr37374.gz (1/146): adding to final database dump
+0015.133 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_options.table.gz (2/146): adding to final database dump
+0015.134 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_users.table.tmpr27.gz (3/146): adding to final database dump
+0015.136 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_users.table.gz (4/146): adding to final database dump
+0015.138 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_usermeta.table.tmpr1958.gz (5/146): adding to final database dump
+0015.141 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_usermeta.table.gz (6/146): adding to final database dump
+0015.143 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_commentmeta.table.tmpr0.gz (7/146): adding to final database dump
+0015.145 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_commentmeta.table.gz (8/146): adding to final database dump
+0015.146 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_comments.table.tmpr0.gz (9/146): adding to final database dump
+0015.149 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_comments.table.gz (10/146): adding to final database dump
+0015.151 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_links.table.tmpr0.gz (11/146): adding to final database dump
+0015.152 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_links.table.gz (12/146): adding to final database dump
+0015.154 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_postmeta.table.tmpr6294.gz (13/146): adding to final database dump
+0015.163 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_postmeta.table.gz (14/146): adding to final database dump
+0015.165 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_posts.table.tmpr1798.gz (15/146): adding to final database dump
+0015.172 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_posts.table.gz (16/146): adding to final database dump
+0015.173 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_term_relationships.table.tmpr834.gz (17/146): adding to final database dump
+0015.175 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_term_relationships.table.gz (18/146): adding to final database dump
+0015.177 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_term_taxonomy.table.tmpr834.gz (19/146): adding to final database dump
+0015.180 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_term_taxonomy.table.gz (20/146): adding to final database dump
+0015.181 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_termmeta.table.tmpr58.gz (21/146): adding to final database dump
+0015.183 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_termmeta.table.gz (22/146): adding to final database dump
+0015.184 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_terms.table.tmpr834.gz (23/146): adding to final database dump
+0015.187 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_terms.table.gz (24/146): adding to final database dump
+0015.189 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_a3_exclude_email_subject.table.tmpr0.gz (25/146): adding to final database dump
+0015.190 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_a3_exclude_email_subject.table.gz (26/146): adding to final database dump
+0015.192 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_actions.table.tmpr156.gz (27/146): adding to final database dump
+0015.194 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_actions.table.gz (28/146): adding to final database dump
+0015.195 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_claims.table.tmpr0.gz (29/146): adding to final database dump
+0015.197 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_claims.table.gz (30/146): adding to final database dump
+0015.198 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_groups.table.tmpr3.gz (31/146): adding to final database dump
+0015.200 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_groups.table.gz (32/146): adding to final database dump
+0015.201 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_logs.table.tmpr90.gz (33/146): adding to final database dump
+0015.203 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_actionscheduler_logs.table.gz (34/146): adding to final database dump
+0015.204 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_admin_columns.table.tmpr8.gz (35/146): adding to final database dump
+0015.206 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_admin_columns.table.gz (36/146): adding to final database dump
+0015.207 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_booking.table.tmpr2.gz (37/146): adding to final database dump
+0015.209 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_booking.table.gz (38/146): adding to final database dump
+0015.211 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_bookingdates.table.tmpr1001.gz (39/146): adding to final database dump
+0015.212 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_bookingdates.table.gz (40/146): adding to final database dump
+0015.214 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fbv.table.tmpr4.gz (41/146): adding to final database dump
+0015.215 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fbv.table.gz (42/146): adding to final database dump
+0015.217 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fbv_attachment_folder.table.tmpr187.gz (43/146): adding to final database dump
+0015.218 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fbv_attachment_folder.table.gz (44/146): adding to final database dump
+0015.220 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_menu.table.tmpr2.gz (45/146): adding to final database dump
+0015.221 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_menu.table.gz (46/146): adding to final database dump
+0015.223 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_menu_meta.table.tmpr0.gz (47/146): adding to final database dump
+0015.224 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_menu_meta.table.gz (48/146): adding to final database dump
+0015.226 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_payment.table.tmpr0.gz (49/146): adding to final database dump
+0015.227 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_payment.table.gz (50/146): adding to final database dump
+0015.229 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_payment_items.table.tmpr0.gz (51/146): adding to final database dump
+0015.230 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_payment_items.table.gz (52/146): adding to final database dump
+0015.232 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_post.table.tmpr0.gz (53/146): adding to final database dump
+0015.233 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_post.table.gz (54/146): adding to final database dump
+0015.235 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_user_profile.table.tmpr12.gz (55/146): adding to final database dump
+0015.236 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_fed_user_profile.table.gz (56/146): adding to final database dump
+0015.238 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_actions.table.tmpr1001.gz (57/146): adding to final database dump
+0015.239 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_actions.table.gz (58/146): adding to final database dump
+0015.241 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_blocked_emails.table.tmpr0.gz (59/146): adding to final database dump
+0015.242 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_blocked_emails.table.gz (60/146): adding to final database dump
+0015.244 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_campaigns.table.tmpr4.gz (61/146): adding to final database dump
+0015.245 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_campaigns.table.gz (62/146): adding to final database dump
+0015.247 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contact_meta.table.tmpr0.gz (63/146): adding to final database dump
+0015.248 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contact_meta.table.gz (64/146): adding to final database dump
+0015.250 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contactmeta.table.tmpr0.gz (65/146): adding to final database dump
+0015.251 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contactmeta.table.gz (66/146): adding to final database dump
+0015.252 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contacts.table.tmpr3.gz (67/146): adding to final database dump
+0015.254 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contacts.table.gz (68/146): adding to final database dump
+0015.256 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contacts_ips.table.tmpr1.gz (69/146): adding to final database dump
+0015.257 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_contacts_ips.table.gz (70/146): adding to final database dump
+0015.258 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_forms.table.tmpr2.gz (71/146): adding to final database dump
+0015.260 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_forms.table.gz (72/146): adding to final database dump
+0015.261 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_links.table.tmpr0.gz (73/146): adding to final database dump
+0015.263 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_links.table.gz (74/146): adding to final database dump
+0015.264 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_lists.table.tmpr3.gz (75/146): adding to final database dump
+0015.265 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_lists.table.gz (76/146): adding to final database dump
+0015.267 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_lists_contacts.table.tmpr4.gz (77/146): adding to final database dump
+0015.268 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_lists_contacts.table.gz (78/146): adding to final database dump
+0015.270 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_mailing_queue.table.tmpr7.gz (79/146): adding to final database dump
+0015.271 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_mailing_queue.table.gz (80/146): adding to final database dump
+0015.273 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_queue.table.tmpr1.gz (81/146): adding to final database dump
+0015.274 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_queue.table.gz (82/146): adding to final database dump
+0015.276 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_sending_queue.table.tmpr12.gz (83/146): adding to final database dump
+0015.277 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_sending_queue.table.gz (84/146): adding to final database dump
+0015.279 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_workflows.table.tmpr0.gz (85/146): adding to final database dump
+0015.280 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_workflows.table.gz (86/146): adding to final database dump
+0015.282 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_workflows_queue.table.tmpr0.gz (87/146): adding to final database dump
+0015.283 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_ig_workflows_queue.table.gz (88/146): adding to final database dump
+0015.285 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_itsec_opaque_tokens.table.tmpr1.gz (89/146): adding to final database dump
+0015.286 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_itsec_opaque_tokens.table.gz (90/146): adding to final database dump
+0015.287 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_login_log.table.tmpr9.gz (91/146): adding to final database dump
+0015.289 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_login_log.table.gz (92/146): adding to final database dump
+0015.291 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_login_redirects.table.tmpr1001.gz (93/146): adding to final database dump
+0015.292 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_login_redirects.table.gz (94/146): adding to final database dump
+0015.294 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (95/146): adding to final database dump
+0015.295 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_custom_fields.table.gz (96/146): adding to final database dump
+0015.297 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (97/146): adding to final database dump
+0015.298 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (98/146): adding to final database dump
+0015.300 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (99/146): adding to final database dump
+0015.303 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_feature_flags.table.gz (100/146): adding to final database dump
+0015.304 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_forms.table.tmpr2.gz (101/146): adding to final database dump
+0015.306 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_forms.table.gz (102/146): adding to final database dump
+0015.307 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_log.table.tmpr0.gz (103/146): adding to final database dump
+0015.309 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_log.table.gz (104/146): adding to final database dump
+0015.310 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_mapping_to_external_entities.table.tmpr1.gz (105/146): adding to final database dump
+0015.312 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_mapping_to_external_entities.table.gz (106/146): adding to final database dump
+0015.313 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (107/146): adding to final database dump
+0015.315 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_links.table.gz (108/146): adding to final database dump
+0015.316 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_option.table.tmpr9.gz (109/146): adding to final database dump
+0015.318 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_option.table.gz (110/146): adding to final database dump
+0015.319 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr21.gz (111/146): adding to final database dump
+0015.321 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_option_fields.table.gz (112/146): adding to final database dump
+0015.322 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (113/146): adding to final database dump
+0015.324 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_posts.table.gz (114/146): adding to final database dump
+0015.325 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_segment.table.tmpr2.gz (115/146): adding to final database dump
+0015.327 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_segment.table.gz (116/146): adding to final database dump
+0015.329 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_templates.table.tmpr76.gz (117/146): adding to final database dump
+0015.350 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletter_templates.table.gz (118/146): adding to final database dump
+0015.352 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletters.table.tmpr3.gz (119/146): adding to final database dump
+0015.354 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_newsletters.table.gz (120/146): adding to final database dump
+0015.356 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr0.gz (121/146): adding to final database dump
+0015.357 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (122/146): adding to final database dump
+0015.359 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_scheduled_tasks.table.tmpr13.gz (123/146): adding to final database dump
+0015.360 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_scheduled_tasks.table.gz (124/146): adding to final database dump
+0015.362 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_segments.table.tmpr5.gz (125/146): adding to final database dump
+0015.363 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_segments.table.gz (126/146): adding to final database dump
+0015.365 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (127/146): adding to final database dump
+0015.367 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_sending_queues.table.gz (128/146): adding to final database dump
+0015.368 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_settings.table.tmpr312.gz (129/146): adding to final database dump
+0015.370 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_settings.table.gz (130/146): adding to final database dump
+0015.371 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (131/146): adding to final database dump
+0015.373 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_clicks.table.gz (132/146): adding to final database dump
+0015.374 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (133/146): adding to final database dump
+0015.376 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_forms.table.gz (134/146): adding to final database dump
+0015.377 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (135/146): adding to final database dump
+0015.379 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_newsletters.table.gz (136/146): adding to final database dump
+0015.381 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (137/146): adding to final database dump
+0015.382 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_opens.table.gz (138/146): adding to final database dump
+0015.384 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (139/146): adding to final database dump
+0015.385 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (140/146): adding to final database dump
+0015.387 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (141/146): adding to final database dump
+0015.388 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (142/146): adding to final database dump
+0015.390 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (143/146): adding to final database dump
+0015.391 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_stats_notifications.table.gz (144/146): adding to final database dump
+0015.393 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (145/146): adding to final database dump
+0015.394 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscriber_custom_field.table.gz (146/146): adding to final database dump
+0015.396 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (147/146): adding to final database dump
+0015.397 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscriber_ips.table.gz (148/146): adding to final database dump
+0015.399 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscriber_segment.table.tmpr17.gz (149/146): adding to final database dump
+0015.400 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscriber_segment.table.gz (150/146): adding to final database dump
+0015.402 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscribers.table.tmpr11.gz (151/146): adding to final database dump
+0015.403 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_subscribers.table.gz (152/146): adding to final database dump
+0015.405 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_user_flags.table.tmpr2.gz (153/146): adding to final database dump
+0015.406 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mailpoet_user_flags.table.gz (154/146): adding to final database dump
+0015.408 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report.table.tmpr3.gz (155/146): adding to final database dump
+0015.410 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report.table.gz (156/146): adding to final database dump
+0015.411 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_client.table.tmpr0.gz (157/146): adding to final database dump
+0015.413 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_client.table.gz (158/146): adding to final database dump
+0015.415 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_format.table.tmpr4.gz (159/146): adding to final database dump
+0015.416 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_format.table.gz (160/146): adding to final database dump
+0015.418 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_site_token.table.tmpr0.gz (161/146): adding to final database dump
+0015.419 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_site_token.table.gz (162/146): adding to final database dump
+0015.421 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_token.table.tmpr13.gz (163/146): adding to final database dump
+0015.423 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_client_report_token.table.gz (164/146): adding to final database dump
+0015.424 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_group.table.tmpr0.gz (165/146): adding to final database dump
+0015.426 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_group.table.gz (166/146): adding to final database dump
+0015.427 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_request_log.table.tmpr0.gz (167/146): adding to final database dump
+0015.429 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_request_log.table.gz (168/146): adding to final database dump
+0015.430 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_tips.table.tmpr0.gz (169/146): adding to final database dump
+0015.432 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_tips.table.gz (170/146): adding to final database dump
+0015.433 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_users.table.tmpr1.gz (171/146): adding to final database dump
+0015.435 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_users.table.gz (172/146): adding to final database dump
+0015.436 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp.table.tmpr0.gz (173/146): adding to final database dump
+0015.438 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp.table.gz (174/146): adding to final database dump
+0015.439 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_backup.table.tmpr0.gz (175/146): adding to final database dump
+0015.441 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_backup.table.gz (176/146): adding to final database dump
+0015.442 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_backup_progress.table.tmpr1.gz (177/146): adding to final database dump
+0015.444 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_backup_progress.table.gz (178/146): adding to final database dump
+0015.446 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_group.table.tmpr1.gz (179/146): adding to final database dump
+0015.447 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_group.table.gz (180/146): adding to final database dump
+0015.449 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_options.table.tmpr1.gz (181/146): adding to final database dump
+0015.450 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_options.table.gz (182/146): adding to final database dump
+0015.451 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_settings_backup.table.tmpr1.gz (183/146): adding to final database dump
+0015.453 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_settings_backup.table.gz (184/146): adding to final database dump
+0015.454 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_sync.table.tmpr1.gz (185/146): adding to final database dump
+0015.456 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_mainwp_wp_sync.table.gz (186/146): adding to final database dump
+0015.457 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter.table.tmpr2.gz (187/146): adding to final database dump
+0015.459 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter.table.gz (188/146): adding to final database dump
+0015.460 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_emails.table.tmpr0.gz (189/146): adding to final database dump
+0015.462 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_emails.table.gz (190/146): adding to final database dump
+0015.463 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_sent.table.tmpr0.gz (191/146): adding to final database dump
+0015.465 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_sent.table.gz (192/146): adding to final database dump
+0015.467 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_stats.table.tmpr0.gz (193/146): adding to final database dump
+0015.468 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_stats.table.gz (194/146): adding to final database dump
+0015.470 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_user_logs.table.tmpr0.gz (195/146): adding to final database dump
+0015.471 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_newsletter_user_logs.table.gz (196/146): adding to final database dump
+0015.473 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_image_storage.table.tmpr15.gz (197/146): adding to final database dump
+0015.474 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_image_storage.table.gz (198/146): adding to final database dump
+0015.476 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_section_storage.table.tmpr10073.gz (199/146): adding to final database dump
+0015.482 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_section_storage.table.gz (200/146): adding to final database dump
+0015.483 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_generators.table.tmpr5.gz (201/146): adding to final database dump
+0015.485 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_generators.table.gz (202/146): adding to final database dump
+0015.487 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_sliders.table.tmpr6.gz (203/146): adding to final database dump
+0015.490 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_sliders.table.gz (204/146): adding to final database dump
+0015.491 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr6.gz (205/146): adding to final database dump
+0015.493 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (206/146): adding to final database dump
+0015.494 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_slides.table.tmpr17.gz (207/146): adding to final database dump
+0015.497 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_nextend2_smartslider3_slides.table.gz (208/146): adding to final database dump
+0015.499 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_podsrel.table.tmpr0.gz (209/146): adding to final database dump
+0015.500 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_podsrel.table.gz (210/146): adding to final database dump
+0015.502 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_richreviews.table.tmpr10.gz (211/146): adding to final database dump
+0015.504 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_richreviews.table.gz (212/146): adding to final database dump
+0015.505 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_rmp_analytics.table.tmpr7.gz (213/146): adding to final database dump
+0015.507 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_rmp_analytics.table.gz (214/146): adding to final database dump
+0015.508 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_smush_dir_images.table.tmpr0.gz (215/146): adding to final database dump
+0015.510 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_smush_dir_images.table.gz (216/146): adding to final database dump
+0015.511 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_tm_taskmeta.table.tmpr0.gz (217/146): adding to final database dump
+0015.513 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_tm_taskmeta.table.gz (218/146): adding to final database dump
+0015.515 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_tm_tasks.table.tmpr0.gz (219/146): adding to final database dump
+0015.516 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_tm_tasks.table.gz (220/146): adding to final database dump
+0015.518 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_user_registration_sessions.table.tmpr1.gz (221/146): adding to final database dump
+0015.519 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_user_registration_sessions.table.gz (222/146): adding to final database dump
+0015.521 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfblockediplog.table.tmpr1001.gz (223/146): adding to final database dump
+0015.522 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfblockediplog.table.gz (224/146): adding to final database dump
+0015.524 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfblocks7.table.tmpr0.gz (225/146): adding to final database dump
+0015.526 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfblocks7.table.gz (226/146): adding to final database dump
+0015.527 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfconfig.table.tmpr1001.gz (227/146): adding to final database dump
+0015.582 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfconfig.table.gz (228/146): adding to final database dump
+0015.584 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfcrawlers.table.tmpr1001.gz (229/146): adding to final database dump
+0015.585 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfcrawlers.table.gz (230/146): adding to final database dump
+0015.587 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wffilechanges.table.tmpr1.gz (231/146): adding to final database dump
+0015.589 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wffilechanges.table.gz (232/146): adding to final database dump
+0015.590 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wffilemods.table.tmpr9001.gz (233/146): adding to final database dump
+0015.702 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wffilemods.table.gz (234/146): adding to final database dump
+0015.704 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfhits.table.tmpr6531.gz (235/146): adding to final database dump
+0015.708 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfhits.table.gz (236/146): adding to final database dump
+0015.709 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfhoover.table.tmpr0.gz (237/146): adding to final database dump
+0015.711 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfhoover.table.gz (238/146): adding to final database dump
+0015.712 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfissues.table.tmpr1969.gz (239/146): adding to final database dump
+0015.714 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfissues.table.gz (240/146): adding to final database dump
+0015.716 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfknownfilelist.table.tmpr8791.gz (241/146): adding to final database dump
+0015.738 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfknownfilelist.table.gz (242/146): adding to final database dump
+0015.740 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wflivetraffichuman.table.tmpr1.gz (243/146): adding to final database dump
+0015.742 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wflivetraffichuman.table.gz (244/146): adding to final database dump
+0015.743 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wflocs.table.tmpr1001.gz (245/146): adding to final database dump
+0015.745 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wflocs.table.gz (246/146): adding to final database dump
+0015.746 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wflogins.table.tmpr4698.gz (247/146): adding to final database dump
+0015.758 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wflogins.table.gz (248/146): adding to final database dump
+0015.760 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (249/146): adding to final database dump
+0015.761 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfls_2fa_secrets.table.gz (250/146): adding to final database dump
+0015.763 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfls_settings.table.tmpr1001.gz (251/146): adding to final database dump
+0015.764 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfls_settings.table.gz (252/146): adding to final database dump
+0015.766 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfnotifications.table.tmpr1001.gz (253/146): adding to final database dump
+0015.768 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfnotifications.table.gz (254/146): adding to final database dump
+0015.769 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfpendingissues.table.tmpr3.gz (255/146): adding to final database dump
+0015.770 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfpendingissues.table.gz (256/146): adding to final database dump
+0015.772 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfreversecache.table.tmpr1001.gz (257/146): adding to final database dump
+0015.774 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfreversecache.table.gz (258/146): adding to final database dump
+0015.775 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfsnipcache.table.tmpr0.gz (259/146): adding to final database dump
+0015.777 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfsnipcache.table.gz (260/146): adding to final database dump
+0015.778 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfstatus.table.tmpr12559.gz (261/146): adding to final database dump
+0015.783 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wfstatus.table.gz (262/146): adding to final database dump
+0015.784 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wftrafficrates.table.tmpr1.gz (263/146): adding to final database dump
+0015.786 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wftrafficrates.table.gz (264/146): adding to final database dump
+0015.787 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpda_pricing_table_theme.table.tmpr105.gz (265/146): adding to final database dump
+0015.789 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpda_pricing_table_theme.table.gz (266/146): adding to final database dump
+0015.791 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpda_pricing_tables.table.tmpr51.gz (267/146): adding to final database dump
+0015.792 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpda_pricing_tables.table.gz (268/146): adding to final database dump
+0015.794 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_calendars.table.tmpr1766.gz (269/146): adding to final database dump
+0015.795 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_calendars.table.gz (270/146): adding to final database dump
+0015.797 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_dates.table.tmpr1001.gz (271/146): adding to final database dump
+0015.800 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_dates.table.gz (272/146): adding to final database dump
+0015.802 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_extras.table.tmpr2.gz (273/146): adding to final database dump
+0015.803 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_extras.table.gz (274/146): adding to final database dump
+0015.805 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_forms.table.tmpr2.gz (275/146): adding to final database dump
+0015.806 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_forms.table.gz (276/146): adding to final database dump
+0015.808 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_payments.table.tmpr0.gz (277/146): adding to final database dump
+0015.809 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_payments.table.gz (278/146): adding to final database dump
+0015.811 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_reservations.table.tmpr40.gz (279/146): adding to final database dump
+0015.813 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_reservations.table.gz (280/146): adding to final database dump
+0015.814 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_themes.table.tmpr1766.gz (281/146): adding to final database dump
+0015.822 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpdevart_themes.table.gz (282/146): adding to final database dump
+0015.823 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpforms_tasks_meta.table.tmpr3.gz (283/146): adding to final database dump
+0015.825 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wpforms_tasks_meta.table.gz (284/146): adding to final database dump
+0015.827 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wsal_metadata.table.tmpr190.gz (285/146): adding to final database dump
+0015.828 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wsal_metadata.table.gz (286/146): adding to final database dump
+0015.830 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wsal_occurrences.table.tmpr18.gz (287/146): adding to final database dump
+0015.832 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wsal_occurrences.table.gz (288/146): adding to final database dump
+0015.833 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wsal_options.table.tmpr22.gz (289/146): adding to final database dump
+0015.835 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db-table-wp_wsal_options.table.gz (290/146): adding to final database dump
+0015.840 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz: finished writing out complete database file (1816 KB)
+0015.876 (0) Total database tables backed up: 145 (backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz, size: 1873471, sha1: b52304d74f5ce6229ed1d9c673b165259600ed88, sha256: 97cfe03c4596f9f321b17fd5a585b50b906c9e28771a09a743f7c294c2e1b734)
+0015.884 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0015.885 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0015.887 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0015.888 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-others.zip: others: This file has not yet been successfully uploaded: will queue
+0015.890 (0) backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.891 (0) Saving backup history. Total backup size: 117.6 MB
+0015.895 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0015.900 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.901 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-2fc9a253c7c0e9cf20e2766a7949f16a)
+0018.943 (0) Google Drive: quota usage: used=9210.5 MB, total=10494970.5 MB, available=10485760 MB
+0018.945 (0) Google Drive: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Iy-Pa9bqgHu6Wtmke2BDPEyE680u1xoe)
+0020.786 (0) Googledrive chunked upload: 2.7 % uploaded (1048576)
+0021.794 (0) Googledrive chunked upload: 5.3 % uploaded (2097152)
+0022.571 (0) Googledrive chunked upload: 8 % uploaded (3145728)
+0023.305 (0) Googledrive chunked upload: 10.6 % uploaded (4194304)
+0024.167 (0) Googledrive chunked upload: 13.3 % uploaded (5242880)
+0025.169 (0) Googledrive chunked upload: 15.9 % uploaded (6291456)
+0026.169 (0) Googledrive chunked upload: 18.6 % uploaded (7340032)
+0027.164 (0) Googledrive chunked upload: 21.2 % uploaded (8388608)
+0028.164 (0) Googledrive chunked upload: 23.9 % uploaded (9437184)
+0029.131 (0) Googledrive chunked upload: 26.5 % uploaded (10485760)
+0030.141 (0) Googledrive chunked upload: 29.2 % uploaded (11534336)
+0031.137 (0) Googledrive chunked upload: 31.8 % uploaded (12582912)
+0032.124 (0) Googledrive chunked upload: 34.5 % uploaded (13631488)
+0033.115 (0) Googledrive chunked upload: 37.1 % uploaded (14680064)
+0034.163 (0) Googledrive chunked upload: 39.8 % uploaded (15728640)
+0035.503 (0) Googledrive chunked upload: 42.4 % uploaded (16777216)
+0036.482 (0) Googledrive chunked upload: 45.1 % uploaded (17825792)
+0037.486 (0) Googledrive chunked upload: 47.7 % uploaded (18874368)
+0038.379 (0) Googledrive chunked upload: 50.4 % uploaded (19922944)
+0039.334 (0) Googledrive chunked upload: 53.1 % uploaded (20971520)
+0040.282 (0) Googledrive chunked upload: 55.7 % uploaded (22020096)
+0041.256 (0) Googledrive chunked upload: 58.4 % uploaded (23068672)
+0042.031 (0) Googledrive chunked upload: 61 % uploaded (24117248)
+0043.019 (0) Googledrive chunked upload: 63.7 % uploaded (25165824)
+0044.027 (0) Googledrive chunked upload: 66.3 % uploaded (26214400)
+0045.033 (0) Googledrive chunked upload: 69 % uploaded (27262976)
+0046.026 (0) Googledrive chunked upload: 71.6 % uploaded (28311552)
+0047.020 (0) Googledrive chunked upload: 74.3 % uploaded (29360128)
+0047.980 (0) Googledrive chunked upload: 76.9 % uploaded (30408704)
+0048.767 (0) Googledrive chunked upload: 79.6 % uploaded (31457280)
+0049.666 (0) Googledrive chunked upload: 82.2 % uploaded (32505856)
+0050.634 (0) Googledrive chunked upload: 84.9 % uploaded (33554432)
+0051.505 (0) Googledrive chunked upload: 87.5 % uploaded (34603008)
+0052.471 (0) Googledrive chunked upload: 90.2 % uploaded (35651584)
+0053.462 (0) Googledrive chunked upload: 92.8 % uploaded (36700160)
+0054.461 (0) Googledrive chunked upload: 95.5 % uploaded (37748736)
+0055.438 (0) Googledrive chunked upload: 98.1 % uploaded (38797312)
+0058.066 (0) Googledrive chunked upload: 100 % uploaded (38797312)
+0058.071 (0) Google Drive: OK: Archive backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip uploaded in 39.12 seconds
+0058.073 (0) Recording as successfully uploaded: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip
+0058.083 (0) Deleting local file: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-plugins.zip: OK
+0058.549 (0) Google Drive: quota usage: used=9248.2 MB, total=10495008.2 MB, available=10485760 MB
+0058.551 (0) Google Drive: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip: Attempting to upload to Google Drive (into folder id: 1Iy-Pa9bqgHu6Wtmke2BDPEyE680u1xoe)
+0060.317 (0) Googledrive chunked upload: 6.3 % uploaded (1048576)
+0061.273 (0) Googledrive chunked upload: 12.7 % uploaded (2097152)
+0062.226 (0) Googledrive chunked upload: 19 % uploaded (3145728)
+0063.215 (0) Googledrive chunked upload: 25.4 % uploaded (4194304)
+0064.169 (0) Googledrive chunked upload: 31.7 % uploaded (5242880)
+0065.161 (0) Googledrive chunked upload: 38 % uploaded (6291456)
+0065.950 (0) Googledrive chunked upload: 44.4 % uploaded (7340032)
+0066.940 (0) Googledrive chunked upload: 50.7 % uploaded (8388608)
+0067.912 (0) Googledrive chunked upload: 57 % uploaded (9437184)
+0068.870 (0) Googledrive chunked upload: 63.4 % uploaded (10485760)
+0069.751 (0) Googledrive chunked upload: 69.7 % uploaded (11534336)
+0070.762 (0) Googledrive chunked upload: 76.1 % uploaded (12582912)
+0071.703 (0) Googledrive chunked upload: 82.4 % uploaded (13631488)
+0072.700 (0) Googledrive chunked upload: 88.7 % uploaded (14680064)
+0073.663 (0) Googledrive chunked upload: 95.1 % uploaded (15728640)
+0076.058 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0076.063 (0) Google Drive: OK: Archive backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip uploaded in 17.51 seconds
+0076.064 (0) Recording as successfully uploaded: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip
+0076.071 (0) Deleting local file: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-themes.zip: OK
+0076.450 (0) Google Drive: quota usage: used=9263.9 MB, total=10495023.9 MB, available=10485760 MB
+0076.452 (0) Google Drive: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Iy-Pa9bqgHu6Wtmke2BDPEyE680u1xoe)
+0078.026 (0) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0079.015 (0) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0080.010 (0) Googledrive chunked upload: 5.1 % uploaded (3145728)
+0081.014 (0) Googledrive chunked upload: 6.7 % uploaded (4194304)
+0081.769 (0) Googledrive chunked upload: 8.4 % uploaded (5242880)
+0082.785 (0) Googledrive chunked upload: 10.1 % uploaded (6291456)
+0083.606 (0) Googledrive chunked upload: 11.8 % uploaded (7340032)
+0084.560 (0) Googledrive chunked upload: 13.5 % uploaded (8388608)
+0085.553 (0) Googledrive chunked upload: 15.2 % uploaded (9437184)
+0086.524 (0) Googledrive chunked upload: 16.9 % uploaded (10485760)
+0087.495 (0) Googledrive chunked upload: 18.5 % uploaded (11534336)
+0088.442 (0) Googledrive chunked upload: 20.2 % uploaded (12582912)
+0089.396 (0) Googledrive chunked upload: 21.9 % uploaded (13631488)
+0090.420 (0) Googledrive chunked upload: 23.6 % uploaded (14680064)
+0091.363 (0) Googledrive chunked upload: 25.3 % uploaded (15728640)
+0092.264 (0) Googledrive chunked upload: 27 % uploaded (16777216)
+0093.228 (0) Googledrive chunked upload: 28.7 % uploaded (17825792)
+0093.966 (0) Googledrive chunked upload: 30.3 % uploaded (18874368)
+0094.953 (0) Googledrive chunked upload: 32 % uploaded (19922944)
+0095.718 (0) Googledrive chunked upload: 33.7 % uploaded (20971520)
+0096.628 (0) Googledrive chunked upload: 35.4 % uploaded (22020096)
+0097.592 (0) Googledrive chunked upload: 37.1 % uploaded (23068672)
+0098.585 (0) Googledrive chunked upload: 38.8 % uploaded (24117248)
+0099.543 (0) Googledrive chunked upload: 40.5 % uploaded (25165824)
+0100.511 (0) Googledrive chunked upload: 42.1 % uploaded (26214400)
+0101.519 (0) Googledrive chunked upload: 43.8 % uploaded (27262976)
+0102.368 (0) Googledrive chunked upload: 45.5 % uploaded (28311552)
+0103.392 (0) Googledrive chunked upload: 47.2 % uploaded (29360128)
+0104.337 (0) Googledrive chunked upload: 48.9 % uploaded (30408704)
+0105.380 (0) Googledrive chunked upload: 50.6 % uploaded (31457280)
+0106.348 (0) Googledrive chunked upload: 52.3 % uploaded (32505856)
+0107.450 (0) Googledrive chunked upload: 53.9 % uploaded (33554432)
+0108.410 (0) Googledrive chunked upload: 55.6 % uploaded (34603008)
+0109.132 (0) Googledrive chunked upload: 57.3 % uploaded (35651584)
+0110.096 (0) Googledrive chunked upload: 59 % uploaded (36700160)
+0111.072 (0) Googledrive chunked upload: 60.7 % uploaded (37748736)
+0111.791 (0) Googledrive chunked upload: 62.4 % uploaded (38797312)
+0112.793 (0) Googledrive chunked upload: 64.1 % uploaded (39845888)
+0113.799 (0) Googledrive chunked upload: 65.7 % uploaded (40894464)
+0114.540 (0) Googledrive chunked upload: 67.4 % uploaded (41943040)
+0115.309 (0) Googledrive chunked upload: 69.1 % uploaded (42991616)
+0116.155 (0) Googledrive chunked upload: 70.8 % uploaded (44040192)
+0117.120 (0) Googledrive chunked upload: 72.5 % uploaded (45088768)
+0118.143 (0) Googledrive chunked upload: 74.2 % uploaded (46137344)
+0119.120 (0) Googledrive chunked upload: 75.9 % uploaded (47185920)
+0120.132 (0) Googledrive chunked upload: 77.5 % uploaded (48234496)
+0121.022 (0) Googledrive chunked upload: 79.2 % uploaded (49283072)
+0121.769 (0) Googledrive chunked upload: 80.9 % uploaded (50331648)
+0122.507 (0) Googledrive chunked upload: 82.6 % uploaded (51380224)
+0123.417 (0) Googledrive chunked upload: 84.3 % uploaded (52428800)
+0124.401 (0) Googledrive chunked upload: 86 % uploaded (53477376)
+0125.266 (0) Googledrive chunked upload: 87.7 % uploaded (54525952)
+0125.969 (0) Googledrive chunked upload: 89.3 % uploaded (55574528)
+0126.711 (0) Googledrive chunked upload: 91 % uploaded (56623104)
+0127.557 (0) Googledrive chunked upload: 92.7 % uploaded (57671680)
+0128.281 (0) Googledrive chunked upload: 94.4 % uploaded (58720256)
+0129.031 (0) Googledrive chunked upload: 96.1 % uploaded (59768832)
+0130.007 (0) Googledrive chunked upload: 97.8 % uploaded (60817408)
+0130.981 (0) Googledrive chunked upload: 99.5 % uploaded (61865984)
+0133.057 (0) Googledrive chunked upload: 100 % uploaded (61865984)
+0133.062 (0) Google Drive: OK: Archive backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip uploaded in 56.61 seconds
+0133.064 (0) Recording as successfully uploaded: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip
+0133.077 (0) Deleting local file: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-uploads.zip: OK
+0133.461 (0) Google Drive: quota usage: used=9323.3 MB, total=10495083.3 MB, available=10485760 MB
+0133.463 (0) Google Drive: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-others.zip: Attempting to upload to Google Drive (into folder id: 1Iy-Pa9bqgHu6Wtmke2BDPEyE680u1xoe)
+0135.209 (0) Googledrive chunked upload: 33.5 % uploaded (1048576)
+0136.168 (0) Googledrive chunked upload: 67.1 % uploaded (2097152)
+0138.512 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0138.517 (0) Google Drive: OK: Archive backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-others.zip uploaded in 5.05 seconds
+0138.518 (0) Recording as successfully uploaded: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-others.zip
+0138.522 (0) Deleting local file: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-others.zip: OK
+0138.927 (0) Google Drive: quota usage: used=9326.2 MB, total=10495086.2 MB, available=10485760 MB
+0138.929 (0) Google Drive: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz: Attempting to upload to Google Drive (into folder id: 1Iy-Pa9bqgHu6Wtmke2BDPEyE680u1xoe)
+0140.731 (0) Googledrive chunked upload: 56 % uploaded (1048576)
+0142.794 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0142.799 (0) Google Drive: OK: Archive backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz uploaded in 3.87 seconds
+0142.801 (0) Recording as successfully uploaded: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz
+0142.804 (0) Deleting local file: backup_2020-11-06-0844_Laver_Promotions_and_Events_0562e4a32eff-db.gz: OK
+0142.810 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0142.811 (0) Number of backup sets in history: 3; groups (db): 1
+0142.813 (0) Examining (for databases) backup set with group_id=0, nonce=0562e4a32eff, datestamp=1604612640 (Nov 05 2020 21:44:00)
+0142.814 (0) This backup set is the backup set just made, so will not be deleted.
+0142.815 (0) Examining (for databases) backup set with group_id=0, nonce=527dc4cce6cb, datestamp=1604532518 (Nov 04 2020 23:28:38)
+0142.815 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0142.816 (0) Examining (for databases) backup set with group_id=0, nonce=681b39787aef, datestamp=1604455025 (Nov 04 2020 01:57:05)
+0142.816 (0) 1604455025: db: this set includes a database (backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-db.gz); db count is now 2
+0142.816 (0) 1604455025: db: over retain limit (2); will delete this database
+0142.816 (0) Delete file: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-db.gz, service=googledrive
+0147.528 (0) Google Drive: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-db.gz: Deletion successful
+0147.533 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0147.534 (0) Number of backup sets in history: 3; groups (files): 1
+0147.536 (0) Examining (for files) backup set with nonce=0562e4a32eff, datestamp=1604612640 (Nov 05 2020 21:44:00)
+0147.538 (0) This backup set is the backup set just made, so will not be deleted.
+0147.539 (0) This backup set is the backup set just made, so will not be deleted.
+0147.539 (0) This backup set is the backup set just made, so will not be deleted.
+0147.539 (0) This backup set is the backup set just made, so will not be deleted.
+0147.540 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0147.541 (0) Examining (for files) backup set with nonce=527dc4cce6cb, datestamp=1604532518 (Nov 04 2020 23:28:38)
+0147.541 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0147.541 (0) Examining (for files) backup set with nonce=681b39787aef, datestamp=1604455025 (Nov 04 2020 01:57:05)
+0147.541 (0) plugins: over retain limit (2); will delete this file entity
+0147.541 (0) themes: over retain limit (2); will delete this file entity
+0147.541 (0) uploads: over retain limit (2); will delete this file entity
+0147.541 (0) others: over retain limit (2); will delete this file entity
+0147.541 (0) Delete file: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-plugins.zip, service=googledrive
+0147.543 (0) Delete file: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-themes.zip, service=googledrive
+0147.544 (0) Delete file: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-uploads.zip, service=googledrive
+0147.546 (0) Delete file: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-others.zip, service=googledrive
+0150.325 (0) Google Drive: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-others.zip: Deletion successful
+0151.038 (0) Google Drive: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-uploads.zip: Deletion successful
+0151.973 (0) Google Drive: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-themes.zip: Deletion successful
+0152.756 (0) Google Drive: backup_2020-11-04-1257_Laver_Promotions_and_Events_681b39787aef-plugins.zip: Deletion successful
+0152.761 (0) This backup set is now empty; will remove from history
+0152.763 (0) Deleting log file (log.681b39787aef.txt)
+0152.765 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0152.770 (0) Resume backup (0562e4a32eff, 0): finish run
+0152.774 (0) Decremented the semaphore (fd) by 1
+0152.777 (0) Semaphore (fd) unlocked
+0152.778 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0152.784 (0) No email will/can be sent - the user has not configured an email address.
+0152.785 (0) The backup apparently succeeded and is now complete
